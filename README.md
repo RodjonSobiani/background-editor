@@ -1,3 +1,7 @@
+# Projects for demonstrating my skills
+**Проекты для демонстрации моих навыков**
+___
+
 # Default text:
 
 # background-editor
