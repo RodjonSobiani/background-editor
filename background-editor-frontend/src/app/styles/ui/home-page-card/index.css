@@ -1,0 +1,58 @@
+.card-wrapper {
+  @apply relative overflow-hidden rounded-[24px];
+}
+
+.card-background {
+  @apply relative z-10 max-h-max w-full space-y-8 p-8;
+}
+
+.card-background--dark {
+  @apply bg-primary text-white;
+}
+
+.card-background--light {
+  @apply text-primary bg-white;
+}
+
+.card-text-wrapper {
+  @apply relative flex flex-col gap-6;
+}
+
+.card-title {
+  @apply text-h1-golos font-medium;
+
+  @media (max-width: 668px) {
+    @apply text-h2-golos;
+  }
+}
+
+.card-description {
+  @apply text-h3-golos font-normal;
+
+  @media (max-width: 668px) {
+    @apply text-body-14px;
+  }
+}
+
+.card-image {
+  @apply rounded-[16px];
+}
+
+.removing-background {
+  @apply max-h-[350px] rounded-[16px];
+}
+
+.editing-background {
+}
+
+.removing-objects {
+  @apply max-h-[300px] rounded-[16px];
+
+  @media (max-width: 1024px) {
+    @apply max-h-[200px];
+  }
+
+  @media (max-width: 768px) {
+    @apply max-h-[300px];
+  }
+}

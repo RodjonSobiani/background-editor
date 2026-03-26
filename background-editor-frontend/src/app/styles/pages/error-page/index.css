@@ -1,0 +1,11 @@
+.error-container {
+  @apply container flex flex-1 items-center justify-center;
+
+  .error-content {
+    @apply flex flex-col items-center gap-6;
+
+    .error-code {
+      @apply text-dark-seven text-[128px] leading-[148px] font-normal;
+    }
+  }
+}

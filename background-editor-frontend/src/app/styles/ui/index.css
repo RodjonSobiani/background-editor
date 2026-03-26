@@ -1,0 +1,12 @@
+@import './accordion' layer(components);
+@import './buttons' layer(components);
+@import './dropdown' layer(components);
+@import './header' layer(components);
+@import './home-page-card' layer(components);
+@import './modal-dialog' layer(components);
+@import './tooltip' layer(components);
+@import './footer' layer(components);
+@import './file-uploader' layer(components);
+@import './tariff-card' layer(components);
+@import './inputs' layer(components);
+@import "./slider" layer(components);

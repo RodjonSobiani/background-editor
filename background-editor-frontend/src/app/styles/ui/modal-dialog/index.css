@@ -1,0 +1,17 @@
+@import './upload-modal' layer(components);
+
+.modal-overlay {
+  @apply fixed inset-0 z-100 flex items-center justify-center bg-[#656F77CC]/80;
+}
+
+.modal-container {
+  @apply m-6 flex w-[345px] flex-col gap-[26px] rounded-lg bg-white p-6 md:w-[480px];
+
+  @media (max-width: 375px) {
+    @apply m-3;
+  }
+}
+
+.title-row {
+  @apply flex items-start justify-between;
+}

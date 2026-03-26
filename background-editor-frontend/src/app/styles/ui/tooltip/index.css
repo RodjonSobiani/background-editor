@@ -1,0 +1,119 @@
+.tooltip-container {
+  @apply relative inline-block;
+}
+
+.tooltip-content {
+  @apply bg-primary absolute z-50 w-max max-w-[300px] rounded-sm px-4 py-1 text-white;
+}
+
+.tooltip-content-top-left {
+  @apply bottom-full left-0 mb-2;
+
+  & > .tooltip-content-arrow {
+    @apply top-full left-0 mt-[-0.5px] translate-x-1/2;
+    clip-path: polygon(100% 0, 50% 100%, 0% 0%);
+  }
+}
+
+.tooltip-content-top-center {
+  @apply bottom-full left-1/2 mb-2 -translate-x-1/2 transform;
+
+  & > .tooltip-content-arrow {
+    @apply top-full left-1/2 mt-[-0.5px] -translate-x-1/2;
+    clip-path: polygon(100% 0, 50% 100%, 0% 0%);
+  }
+}
+
+.tooltip-content-top-right {
+  @apply right-0 bottom-full mb-2;
+
+  & > .tooltip-content-arrow {
+    @apply top-full right-0 mt-[-0.5px] -translate-x-1/2;
+    clip-path: polygon(100% 0, 50% 100%, 0% 0%);
+  }
+}
+
+.tooltip-content-right-top {
+  @apply top-0 left-full ml-2;
+
+  & > .tooltip-content-arrow {
+    @apply right-full bottom-0 mr-[-0.5px] h-3 w-2 -translate-y-1/2;
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+  }
+}
+
+.tooltip-content-right-center {
+  @apply top-1/2 left-full ml-2 -translate-y-1/2 transform;
+
+  & > .tooltip-content-arrow {
+    @apply top-1/2 right-full mr-[-0.5px] h-3 w-2 -translate-y-1/2;
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+  }
+}
+
+.tooltip-content-right-bottom {
+  @apply bottom-0 left-full ml-2;
+
+  & > .tooltip-content-arrow {
+    @apply right-full bottom-0 mr-[-0.5px] h-3 w-2 -translate-y-1/2;
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+  }
+}
+
+.tooltip-content-bottom-right {
+  @apply top-full right-0 mt-2;
+
+  & > .tooltip-content-arrow {
+    @apply right-0 bottom-full mb-[-0.5px] -translate-x-1/2;
+    clip-path: polygon(100% 100%, 50% 0, 0 100%);
+  }
+}
+
+.tooltip-content-bottom-center {
+  @apply top-full left-1/2 mt-2 -translate-x-1/2 transform;
+
+  & > .tooltip-content-arrow {
+    @apply bottom-full left-1/2 mb-[-0.5px] -translate-x-1/2;
+    clip-path: polygon(100% 100%, 50% 0, 0 100%);
+  }
+}
+
+.tooltip-content-bottom-left {
+  @apply top-full left-0 mt-2;
+
+  & > .tooltip-content-arrow {
+    @apply bottom-full left-0 mb-[-0.5px] translate-x-1/2;
+    clip-path: polygon(100% 100%, 50% 0, 0 100%);
+  }
+}
+
+.tooltip-content-left-bottom {
+  @apply right-full bottom-0 mr-2;
+
+  & > .tooltip-content-arrow {
+    @apply bottom-0 left-full ml-[-0.5px] h-3 w-2 -translate-y-1/2;
+    clip-path: polygon(0 100%, 0 0, 100% 50%);
+  }
+}
+
+.tooltip-content-left-center {
+  @apply top-1/2 right-full mr-2 -translate-y-1/2 transform;
+
+  & > .tooltip-content-arrow {
+    @apply top-1/2 left-full ml-[-0.5px] h-3 w-2 -translate-y-1/2;
+    clip-path: polygon(0 100%, 0 0, 100% 50%);
+  }
+}
+
+.tooltip-content-left-top {
+  @apply top-0 right-full mr-2;
+
+  & > .tooltip-content-arrow {
+    @apply bottom-0 left-full ml-[-0.5px] h-3 w-2 -translate-y-1/2;
+    clip-path: polygon(0 100%, 0 0, 100% 50%);
+  }
+}
+
+.tooltip-content-arrow {
+  @apply bg-primary absolute h-2 w-3 transform;
+}

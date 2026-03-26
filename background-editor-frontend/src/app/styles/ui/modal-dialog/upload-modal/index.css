@@ -1,0 +1,7 @@
+.upload-modal-image {
+  @apply bg-cover bg-no-repeat;
+}
+
+.upload-modal-image.files-list {
+  @apply h-11 cursor-pointer overflow-hidden rounded-sm;
+}

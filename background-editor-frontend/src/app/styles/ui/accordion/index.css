@@ -1,0 +1,19 @@
+.accordion {
+  @apply flex flex-col gap-[24px];
+}
+
+.accordion-button-content {
+  @apply flex w-full flex-row items-center gap-[8px];
+}
+
+.accordion-icon {
+  @apply text-icon transform transition-transform;
+}
+
+.accordion-icon--open {
+  @apply rotate-180;
+}
+
+.accordion-list {
+  @apply flex flex-col gap-[24px];
+}

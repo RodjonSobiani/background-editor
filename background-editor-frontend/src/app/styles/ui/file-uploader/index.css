@@ -1,0 +1,24 @@
+.file-uploader-card-container {
+  @apply flex justify-between gap-2 rounded-sm px-1.5 py-2.5;
+}
+
+.file-uploader-container {
+  @apply xs:px-4 relative mb-1 overflow-hidden rounded-lg pt-16 pb-10 md:px-12 lg:px-20;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23656f77' stroke-width='2' stroke-dasharray='16%2c 16%2c 16%2c 16' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+
+  .upload-instructions-container {
+    @apply relative z-10 flex flex-col items-center gap-2;
+  }
+
+  .upload-options-container {
+    @apply decoration-secondary xs:hidden relative z-10 justify-between leading-7 underline decoration-wavy decoration-[12%] underline-offset-6 md:flex;
+  }
+
+  .upload-background {
+    @apply absolute top-0 left-0 -z-10 h-full w-full object-cover;
+  }
+}
+
+.file-uploader-container.error {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23ea6161' stroke-width='2' stroke-dasharray='16%2c 16%2c 16%2c 16' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+}

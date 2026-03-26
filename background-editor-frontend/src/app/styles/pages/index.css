@@ -1,0 +1,4 @@
+@import './main-page' layer(components);
+@import './profile-page' layer(components);
+@import './error-page' layer(components);
+@import './articles-page' layer(components);

@@ -1,0 +1,79 @@
+.base {
+  @apply h-10 cursor-pointer rounded-lg px-3 py-2.5 transition duration-300;
+}
+
+.primary {
+  @apply bg-primary text-white;
+
+  &:hover {
+    @apply bg-light-gray text-primary;
+  }
+
+  &:focus-visible {
+    @apply bg-secondary text-white outline-none;
+  }
+
+  &:active {
+    @apply bg-dark-gray text-white;
+  }
+}
+
+.secondary {
+  @apply bg-light-gray text-primary;
+
+  &:hover {
+    @apply bg-primary text-white;
+  }
+
+  &:focus-visible {
+    @apply bg-secondary text-white outline-none;
+  }
+
+  &:active {
+    @apply bg-dark-gray text-white;
+  }
+}
+
+.outlined {
+  @apply border-light-gray text-primary box-border border bg-white;
+
+  &:hover {
+    @apply bg-light-gray text-secondary;
+  }
+
+  &:focus-visible {
+    @apply text-primary border-primary border bg-white outline-none;
+  }
+
+  &:active {
+    @apply bg-dark-gray text-white;
+  }
+}
+
+.tertiary {
+  @apply text-primary border border-white;
+
+  &:hover {
+    @apply bg-light-gray border-light-gray text-secondary border;
+  }
+
+  &:focus-visible {
+    @apply text-primary border-light-gray border bg-white outline-none;
+  }
+
+  &:active {
+    @apply bg-dark-gray border-dark-gray border text-white;
+  }
+}
+
+.disabled {
+  @apply bg-disabled-light text-disabled-dark pointer-events-none cursor-not-allowed;
+}
+
+.button-focus-filled {
+  @apply bg-secondary text-white outline-hidden;
+}
+
+.button-focus-outlined {
+  @apply text-primary border-light-gray border bg-white outline-hidden;
+}

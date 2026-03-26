@@ -1,0 +1,119 @@
+.main-page-wrapper {
+  @apply flex flex-col gap-[40px];
+}
+
+.first-block {
+  @apply flex flex-col gap-12 py-12;
+
+  .title-section {
+    @apply flex flex-col gap-[24px] text-center;
+  }
+
+  .title {
+    @apply text-h1-furore font-furore text-center font-normal;
+
+    @media (max-width: 668px) {
+      @apply text-h2-furore font-furore font-normal;
+    }
+  }
+
+  .subtitle {
+    @apply text-h3-golos font-golos font-normal;
+  }
+}
+
+.second-block {
+  @apply flex flex-row gap-5 py-12;
+
+  @media (max-width: 1023px) {
+    @apply flex-col;
+  }
+
+  & > div {
+    @apply flex-1;
+  }
+}
+
+.third-block {
+  @apply flex flex-col gap-14 py-12;
+
+  .title {
+    @apply text-h2-furore font-furore text-center font-normal;
+
+    @media (max-width: 668px) {
+      @apply text-h2-furore font-furore font-normal;
+    }
+  }
+
+  .subtitle {
+    @apply text-h3-golos font-golos text-center font-normal;
+  }
+
+  .big-links-container {
+    @apply grid grid-cols-1 gap-5 lg:grid-cols-2;
+  }
+}
+
+.fourth-block {
+  @apply flex flex-col gap-14 py-12;
+
+  .title {
+    @apply text-h2-furore font-furore text-center font-normal;
+
+    @media (max-width: 668px) {
+      @apply text-h2-furore font-furore font-normal;
+    }
+  }
+
+  .subtitle {
+    @apply text-h3-golos font-golos text-center font-normal;
+  }
+}
+
+.carousel-container {
+  @apply flex w-full flex-row gap-5;
+
+  .swiper {
+    padding-bottom: 60px !important;
+  }
+
+  .swiper-slide {
+    width: 310px !important;
+  }
+}
+
+.fifth-block {
+  @apply flex flex-col gap-8 py-12;
+
+  .title {
+    @apply text-h2-furore font-furore text-center font-normal;
+
+    @media (max-width: 668px) {
+      @apply text-h2-furore font-furore font-normal;
+    }
+  }
+
+  .subtitle {
+    @apply text-h3-golos font-golos text-center font-normal;
+  }
+
+  .content {
+    @apply grid grid-cols-1 gap-5 md:grid-cols-2 2xl:grid-cols-4;
+  }
+}
+
+.sixth-block {
+  @apply flex flex-col gap-14 py-12;
+
+  .title {
+    @apply text-h2-furore font-furore text-center font-normal;
+
+    @media (max-width: 668px) {
+      @apply text-h2-furore font-furore font-normal;
+    }
+  }
+
+  .subtitle {
+    @apply text-h3-golos font-golos text-center font-normal;
+  }
+}

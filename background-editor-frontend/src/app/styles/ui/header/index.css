@@ -1,0 +1,11 @@
+.header-base {
+  @apply z-50 flex h-[72px] w-full flex-row items-center justify-between gap-16 bg-white;
+}
+
+.menu-button {
+  @apply flex h-[72px] w-full justify-end;
+}
+
+.menu-wrapper {
+  @apply fixed inset-0 z-50 bg-white px-[16px];
+}

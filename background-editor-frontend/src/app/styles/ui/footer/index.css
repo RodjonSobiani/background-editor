@@ -1,0 +1,27 @@
+.footer-base {
+  @apply border-t-border xs:pt-0 mt-auto w-full border-t pt-12 pb-8 text-center;
+
+  .footer-links {
+    @apply xs:gap-6 xs:flex-col flex flex-wrap justify-between pt-12 text-start md:flex-row md:gap-16;
+
+    .footer-links-content {
+      @apply xs:grid xs:gap-6 flex-1 flex-wrap justify-between md:grid-cols-2 md:gap-0 md:gap-y-6 2xl:flex;
+
+      .footer-links-link {
+        @apply text-secondary space-y-2;
+      }
+    }
+  }
+
+  .footer-copyright {
+    @apply text-secondary xs:flex-col xs:gap-6 flex justify-between pt-12 md:flex-row;
+
+    .footer-copyright-politic {
+      @apply xs:flex-col xs:items-start xs:gap-4 flex md:flex-row md:items-center md:gap-4 2xl:gap-8;
+    }
+
+    .footer-copyright-ipst {
+      @apply xs:justify-between flex items-center gap-6;
+    }
+  }
+}

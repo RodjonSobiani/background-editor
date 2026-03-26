@@ -1,0 +1,381 @@
+{
+  "header": {
+    "dropdownMenu": {
+      "profile": "Profile",
+      "logout": "Logout"
+    },
+    "buttons": {
+      "register": "Registration",
+      "login": "Login"
+    },
+    "links": {
+      "tariff": "Tariffs",
+      "article": "Articles",
+      "help": "Help"
+    },
+    "applicationPossibilities": "Application possibilities",
+    "possibilities": {
+      "individuals": "Individuals",
+      "developers": "Developers",
+      "onlineCommerce": "Online commerce",
+      "journalists": "Journalists",
+      "carSellers": "Car sellers",
+      "organizations": "Organizations"
+    }
+  },
+  "footer": {
+    "contacts": "Contacts",
+    "tools": {
+      "title": "Tools",
+      "removeBackground": "Removing the background",
+      "apiDocs": "API documentation"
+    },
+    "applicationPossibilities": {
+      "title": "Application possibilities",
+      "individuals": "Individuals",
+      "developers": "Developers",
+      "onlineCommerce": "Online commerce",
+      "journalists": "Journalists",
+      "carSellers": "Car sellers",
+      "organizations": "Organizations"
+    },
+    "support": {
+      "title": "Support",
+      "faq": "Help and FAQ",
+      "tariff": "Tariffs",
+      "refunds": "Refunds"
+    },
+    "company": {
+      "title": "Company",
+      "articles": "Articles",
+      "aboutUs": "About us"
+    },
+    "copyrights": {
+      "rules": "Usage rules",
+      "policy": "Privacy policy"
+    }
+  },
+  "loginModal": {
+    "title": "Authorization",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter password",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "No account?",
+    "register": "Register",
+    "login": "Login"
+  },
+  "registerModal": {
+    "title": "Registration",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter password",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "register": "Register",
+    "agreePersonalData": "By clicking on the <span>“Register”</span> button you agree to the processing of personal data",
+    "haveAnAccount": "Already have an account?",
+    "login": "Login",
+    "snackbar": {
+      "success": "Registration was successful",
+      "error": "Error when registering"
+    }
+  },
+  "recoverPasswordModal": {
+    "title": "Recover password",
+    "description1": "We have sent a confirmation for password recovery to your email. Click on the link in the email to continue.",
+    "description2": "Did you not receive the email? Check the spam filter or <b>specify a different email address.</b>",
+    "recoverInstruction": "Enter the email address associated with your account, and we will send an email with a password recovery link.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter email",
+    "send": "Send"
+  },
+  "resetPasswordModal": {
+    "title": "Recover password",
+    "newPasswordLabel": "New password",
+    "confirmNewPasswordLabel": "Confirm new password",
+    "passwordPlaceholder": "Enter password",
+    "save": "Save"
+  },
+  "resetPasswordSuccessModal": {
+    "title": "Congratulations on a successful password change",
+    "description": "You have successfully changed your password, now you can log in by moving to the authorization page.",
+    "goToAuth": "Go to authorization"
+  },
+  "validation": {
+    "confirmPassword": "Passwords do not match"
+  },
+  "fileUpload": {
+    "unit": {
+      "b": "bytes",
+      "kb": "Kb",
+      "mb": "Mb"
+    },
+    "max": "Maximum of {size} {unit}.",
+    "removeBackground": "Removing the background from the image:",
+    "repeat": "Repeat the download",
+    "upload": "<upload>Upload</upload> or <drag>drag files to the area</drag>",
+    "exceeded": "The number of uploaded images according to the tariff has been exceeded",
+    "option": {
+      "deleteObject": "Deleting objects",
+      "backgroundEdit": "Background Editing",
+      "removeBackground": "Removing the background"
+    }
+  },
+  "uploadModal": {
+    "title": "Uploading Images",
+    "upload": "Upload",
+    "cancel": "Cancel"
+  },
+  "uploadPreviewModal": {
+    "title": "Preview",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "add": "Add"
+  },
+  "homePage": {
+    "firstBlock": {
+      "title": "Remove the background with the photo quickly and easy!",
+      "subtitle": "Wash the backgrounds of images for free and replace them with various backgrounds of your choice. Remove unwanted objects from photos, change the size and improve images."
+    },
+    "secondBlock": {
+      "cards": {
+        "titles": {
+          "removingBackground": "Removing the background",
+          "editingBackground": "Editing the background",
+          "removingObjects": "Removing objects"
+        },
+        "descriptions": {
+          "removingBackground": "Wash the backgrounds of images for free and replace them with various backgrounds of your choice. Remove unwanted objects from photos, change the size and improve images.",
+          "editingBackground": "Change the image background at any of your choice. You can add new backgrounds, improve the color palette or create unique effects to create the desired mood in the photo.",
+          "removingObjects": "Easily remove unnecessary objects from photos. Take out extra details to emphasize the main thing and improve the composition of the image."
+        }
+      }
+    },
+    "thirdBlock": {
+      "title": "For whom",
+      "subtitle": "Opportunities of application"
+    },
+    "fourthBlock": {
+      "title": "Tariff plans",
+      "subtitle": "Choose the right plan for your needs and get access to easy-to-use tools to edit images and improve their quality."
+    },
+    "fifthBlock": {
+      "title": "Articles",
+      "subtitle": "It may be useful",
+      "showMore": "Show more"
+    },
+    "sixthBlock": {
+      "title": "Do you have any questions?",
+      "subtitle": "Frequently Asked Questions",
+      "accordion": {
+        "formatSupport": "What image formats are supported?",
+        "changePlan": "How can I change my data plan?",
+        "changeColor": "How do I change the background color?",
+        "sizeImage": "Are there any restrictions on the size of uploaded images?"
+      },
+      "form": {
+        "contactUs": "Contact with us",
+        "name": "Enter your name",
+        "email": "Enter your email address",
+        "question": "Your question",
+        "questionPlaceholder": "Enter a question",
+        "termAndPrivacy": "By clicking submit, you agree to the terms of the policy and privacy policy.",
+        "send": "Send"
+      }
+    }
+  },
+  "profilePage": {
+    "snackbar": {
+      "success": "The name is changed",
+      "error": "Error when changing the name"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "history": "History",
+      "tariff": "Tariff",
+      "logout": "Logout"
+    },
+    "profile": {
+      "actions": {
+        "changePhoto": "Change photo",
+        "edit": "Edit",
+        "remove": "Remove"
+      },
+      "form": {
+        "button": {
+          "save": "Save"
+        },
+        "label": {
+          "name": "Name",
+          "email": "Email",
+          "password": "Password"
+        },
+        "value": {
+          "name": "Konstantin",
+          "email": "konstantin.k@mail.ru",
+          "password": "Change current password"
+        },
+        "description": {
+          "email": "Change email",
+          "password": "Change password"
+        }
+      }
+    },
+    "tariff": {
+      "yourTariff": "Your tariff",
+      "availableTariffs": "Tariffs available for connection"
+    },
+    "history": {
+      "updatedAt": "The date of change:",
+      "edit": "Edit",
+      "notice": "The history of changes is stored for no more than 7 days, monthly storage of files is available in the subscription",
+      "goToTariffs": "Go to the tariffs"
+    }
+  },
+  "changeEmailModal": {
+    "title": "Change email",
+    "currentEmail": "Your current email <current>{value}</current>",
+    "emailChange": "Email has been changed",
+    "description": "Enter your current password and enter a new email.",
+    "form": {
+      "label": {
+        "password": "Current password",
+        "email": "New email"
+      },
+      "placeholder": {
+        "password": "Enter your current password",
+        "email": "Enter a new email"
+      },
+      "button": {
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "validate": {
+        "email": {
+          "required": "This field is required",
+          "empty": "This field is required",
+          "minMax": "Field must contain a minimum of {min} and a maximum of {max} characters",
+          "email": "Field is incorrect"
+        },
+        "password": {
+          "required": "This field is required",
+          "empty": "This field is required",
+          "regex": "Field entered incorrectly",
+          "min": "Field entered incorrectly",
+          "max": "Field entered incorrectly"
+        }
+      }
+    }
+  },
+  "changePasswordModal": {
+    "title": "Change password",
+    "description": "Enter your current password and enter a new password.",
+    "passwordChange": "Password has been changed",
+    "form": {
+      "label": {
+        "currentPassword": "Current password",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm password"
+      },
+      "placeholder": {
+        "currentPassword": "Enter your current password",
+        "newPassword": "Enter a new password",
+        "confirmPassword": "Confirm the new password"
+      },
+      "button": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "workingArea": {
+    "before": "Before",
+    "after": "After",
+    "uploadImages": "Uploaded Images",
+    "download": "Download",
+    "downloadOption": {
+      "1": "Original resolution",
+      "2": "High resolution x2",
+      "4": "Very high resolution x4"
+    },
+    "applyAll": "Apply to all images",
+    "tooltip": {
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "stepBack": "Step back",
+      "stepForward": "Step forward",
+      "removeBackground": "Remove the background"
+    }
+  },
+  "404": {
+    "title": "Page not found",
+    "description": "The address is entered incorrectly or there is no such page.",
+    "button": "Go to the main page"
+  },
+  "500": {
+    "title": "It seems that something is broken.",
+    "description": "We are already troubleshooting the issue, please try refreshing the page after a while.",
+    "button": "Refresh the page"
+  },
+  "tariffCards": {
+    "generate": "generations",
+    "link": "Go",
+    "names": {
+      "free": "Free"
+    },
+    "week": {
+      "price": "Week",
+      "period": "Weekly"
+    },
+    "month": {
+      "price": "Month",
+      "period": "Monthly"
+    }
+  },
+  "termsOfUse": {
+    "text": "Welcome to our service! We are glad you are with us. To make your interaction with us pleasant and safe, please familiarize yourself with our terms of use: <br></br><br></br> 1. **Registration**: To access all features of our application, you need to create an account. Please provide accurate information when registering. <br></br><br></br> 2. **Service use**: You agree to use our service only for lawful purposes and not to violate the rights of other users. Posting offensive or unacceptable content is prohibited. <br></br><br></br> 3. **Security**: You are responsible for keeping your account information secure. Do not share your password with others and report any suspicious activity to us immediately. <br></br><br></br> 4. **Changes to the rules**: We may update these rules from time to time. All changes will be posted on our website, and we recommend that you check this page periodically. <br></br><br></br> 5. **Support**: If you have any questions or issues, please contact our support team. We are always ready to help! <br></br><br></br> Thank you for choosing us! We hope you enjoy using our service.",
+    "title": "Terms of use",
+    "description": "Terms of use",
+    "breadcrumbs": {
+      "root": "Home",
+      "termsOfUse": "Terms of use"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy policy",
+    "description": "Privacy policy",
+    "text": "We care about your privacy and strive to protect your personal data. In this policy, we explain what data we collect, how we use it, and what measures we take to protect it. <br></br><br></br> Data Collection: We may collect information about you when you use our service, including your name, email address, and other contact information. We may also collect data about your use of our application, such as access times and the pages you visit.  <br></br><br></br> - Additionally, we may collect information about your device, including device type, operating system, and browser version. <br></br><br></br> - We may also use cookies to enhance your experience by saving your preferences and settings. <br></br><br></br> Data Usage: The collected data may be used to improve our service, provide user support, and send updates about new features. We will not sell or transfer your data to third parties without your consent. <br></br><br></br> - Your data may be used to analyze trends and improve the functionality of our application. <br></br><br></br> - We may send you informational newsletters about new features and offers if you have consented to this. <br></br><br></br> Data Protection: We take reasonable measures to protect your data from unauthorized access, alteration, or destruction. However, despite our efforts, no method of data transmission over the Internet or method of electronic storage is completely secure. <br></br><br></br> - We use encryption to protect your data when transmitted over the Internet. <br></br><br></br> - Access to your data is restricted to those employees who need it to perform their duties.  <br></br><br></br> Changes to this policy: We may update our privacy policy from time to time. We will notify you of any changes by posting the new policy on our website. We encourage you to check this page periodically to stay informed of any changes.",
+    "breadcrumbs": {
+      "root": "Home",
+      "policy": "Privacy policy"
+    }
+  },
+  "articlesPage": {
+    "breadcrumbs": {
+      "root": "Home",
+      "articles": "Articles"
+    },
+    "anotherArticles": "Other articles",
+    "allArticles": "View all"
+  },
+  "errors": {
+    "error": "Error",
+    "WRONG_EMAIL_OR_PASSWORD": "Wrong email or password",
+    "WRONG_EMAIL": "Wrong email",
+    "WRONG_PASSWORD": "Wrong password",
+    "NOT_FOUND": "Resource not found",
+    "UNAUTHORIZED": "Unauthorized access",
+    "FORBIDDEN": "Access denied",
+    "UNKNOWN_ERROR": "An unknown error occurred",
+    "BUSY_EMAIL": "The user with this mail is already registered"
+  },
+  "contactUs": {
+    "successMessage": "The question is successfully sent!",
+    "errorMessage": "Error in sending a question!"
+  }
+}

@@ -1,0 +1,11 @@
+.tariff-card-wrapper {
+  @apply relative max-h-max w-full max-w-[310px] min-w-[310px] space-y-8 overflow-hidden rounded-[24px] border border-white p-8 shadow-md;
+
+  .content-wrapper {
+    @apply relative flex flex-col items-center gap-6;
+  }
+
+  .card-price {
+    @apply flex items-center gap-1;
+  }
+}
